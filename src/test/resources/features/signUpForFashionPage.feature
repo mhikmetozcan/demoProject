@@ -7,6 +7,6 @@ Feature: Register for fashion page
     When user enters "firstName" as "testName"
     And user enters "lastName" as "testLastName"
     And user enters "email" as "test@test.com"
-    And user enters "password" as "test1234."
-    And user confirms "password" as "test1234."
+    And user enters "password" as "Test1234."
+    And user enters "password confirmation" as "Test1234."
     And user clicks on "Sign up for free" button

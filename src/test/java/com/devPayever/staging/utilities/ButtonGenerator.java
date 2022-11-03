@@ -13,10 +13,9 @@ public class ButtonGenerator {
     public void clickButton(String buttonName){
         setComponent();
         switch (buttonName){
-            case "signUp":
+            case "Sign up for free":
                 fashionPage.signUp.click();
                 break;
-
         }
 
     }
