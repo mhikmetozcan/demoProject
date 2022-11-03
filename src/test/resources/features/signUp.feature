@@ -1,4 +1,4 @@
-Feature: Register for fashion page
+Feature: User registers themselves
 
   Background: User navigates to fashion sign up page
     Given user is on the "fashion" page

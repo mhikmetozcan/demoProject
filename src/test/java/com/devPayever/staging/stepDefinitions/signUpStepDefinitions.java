@@ -1,6 +1,6 @@
 package com.devPayever.staging.stepDefinitions;
 
-import com.devPayever.staging.pages.FashionPage;
+import com.devPayever.staging.pages.SignUpPage;
 import com.devPayever.staging.utilities.ButtonGenerator;
 import com.devPayever.staging.utilities.ConfigurationReader;
 import com.devPayever.staging.utilities.Driver;
@@ -8,9 +8,9 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 
-public class signUpForFashionSteps {
+public class signUpStepDefinitions {
 
-    FashionPage fashionPage = new FashionPage();
+    SignUpPage fashionPage = new SignUpPage();
     ButtonGenerator buttonGenerator = new ButtonGenerator();
 
     @Given("user is on the {string} page")
