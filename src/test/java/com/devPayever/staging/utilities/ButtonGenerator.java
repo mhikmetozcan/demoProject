@@ -1,10 +1,10 @@
 package com.devPayever.staging.utilities;
 
-import com.devPayever.staging.pages.FashionPage;
+import com.devPayever.staging.pages.SignUpPage;
 
 public class ButtonGenerator {
 
-    FashionPage fashionPage = new FashionPage();
+    SignUpPage fashionPage = new SignUpPage();
 
     /**
      * Is used for clicking any button with a single step definition as "click on 'button'"
